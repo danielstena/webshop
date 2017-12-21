@@ -2,20 +2,20 @@ body{
     max-width: 1280px;
     margin:0px;
     padding:0px;
-    background-image: url(bilder/header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(bilder/sky.jpg);
+    background-repeat: repeat;
 }
 .container{
     display: grid;
-    grid-template-columns: 5vw 90vw 5vw ;
-    grid-template-rows: 15vh 5vh 70vh 10vh;
-    width:100vh;
+    grid-template-columns: 10vw 80vw 10vw ;
+    grid-template-rows: 10vh 5vh 5vh auto 10vh 5vh;
     grid-template-areas: 
     "header header header"
     ". meny ."
+    ". undermeny ."
     ". main ."
-    ". footer ."
+    ". footer1 ."
+    ". footer2 ."
     ;
 }
 .header{
@@ -26,19 +26,110 @@ body{
     justify-content: space-around;
     grid-area: meny;
 }
-.menybutton{
-    width: 10vw;
-    height: 4vh;
-    margin-top:3px;
+.menybutton {
+    width: 8.5vw;
+    height: 3.5vh;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(90, 92, 90);
+    border: 2px solid rgb(115, 116, 115);
+    font-size: 1.8vh;
+  }  
+
+.menybutton:hover {background-color: blue;}
+  
+.menybutton:active {
+    background-color: #433e8e;
+    box-shadow: 3 1px #666;
+    transform: translateY(4px);
+}
+.undermeny{
+    display: flex;
+    justify-content: space-around;
+    grid-area: undermeny;
+}
+.undermenybutton {
+    width: 13vw;
+    height: 3.5vh;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(153, 155, 153);
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 50px;
+    font-size: 1.7vh;
+}  
+.undermenybutton:hover {background-color: blue;}
+  
+.undermenybutton:active {
+    background-color: #433e8e;
+    box-shadow: 3 1px #666;
+    transform: translateY(4px);
 }
 .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
     border:1px solid black;
-    background-color:blue;
+    background-color:rgba(85, 83, 83, 0.479);
     grid-area: main;
     text-align: center;
     font-size: 50px;
     color:white;
 }
-.footer{
-    grid-area: footer;
+.card{
+    border:1px solid black;
+    height:70vh;
+    width: 35%;
+    margin-bottom: 5vh;
+    margin-top:5vh;
+}
+.cardimage{
+    margin-top:2vh;
+}
+.prodbild{
+    width: 10vw;
+    height:25vh;
+}
+.cardinfo{
+    font-size: 1vw;
+    height:40%;
+}
+.cardpris{
+    color:red;
+}
+.buy{
+    width:8vw;
+    height:4vh;
+}
+.footer1{
+    grid-area: footer1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:1px solid black;
+    background-color:rgba(85, 83, 83, 0.479);
+}
+.footer1left, .footer1middle, .footer1right{
+    text-align: center;
+    width:30%;
+}
+.betalning{
+    width:90vw;
+}
+.footer2{
+    grid-area: footer2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:1px solid black;
+    background-color:rgba(85, 83, 83, 0.479);
 }

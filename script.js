@@ -1,5 +1,8 @@
 $(document).ready(function(){
-    
+    $(".footer1").append("<div class='footer1left'>Supernutrition INC <br> All rights reserved</div>")
+    $(".footer1").append("<div class='footer1middle'>Supernutrition INC <br> All rights reserved</div>")
+    $(".footer1").append("<div class='footer1right'>Supernutrition INC <br> All rights reserved</div>")
+    $(".footer2").append("<div><img src='bilder/footer-logos-se.png' class='betalning'></div>")
     var json = fetch("huvudkategorier.json")
 
     .then(function(response) {
@@ -11,25 +14,83 @@ $(document).ready(function(){
             var huvudprodukter = lista
             console.log(huvudprodukter)
 
-            $(".meny").append("<button class='menybutton'>Start</button>")
+            $(".meny").append("<a href='index.html'><button class='menybutton'>Start</button></a>")
             $(".meny").append("<button class='menybutton'>Info</button>")
             
 
             for(var i = 0; i < huvudprodukter.length; i++) {
-                $(".meny").append("<a href='" + huvudprodukter[i].link +"'><button class='menybutton'>"+ huvudprodukter[i].kategoriname +" </button>")
-                
-              
+                $(".meny").append("<a href='" + huvudprodukter[i].link +"'><button class='menybutton menybutton"+[i]+"'>"+ huvudprodukter[i].kategoriname +" </button>")
             }
 
             $(".meny").append("<button class='menybutton'>Kontakt</button>")
             $(".meny").append("<button class='menybutton'>Kundvagn</button>")
     });
 
+
+
+    $.getJSON('underkategorier.json', function(data){
+        underkategorier = data;
+
+        
+        for(var i = 0; i < underkategorier.length; i++) {
+            if (underkategorier[i].huvudkategori == 1){
+                $(".undermenyprotein").append("<button class='undermenybutton' onclick='unbut" + [i]+"'>"+ underkategorier[i].kategoriNamn +" </button>")  
+        }}
+        for(var i = 0; i < underkategorier.length; i++) {
+            if (underkategorier[i].huvudkategori == 2){
+                $(".undermenykreatin").append("<button class='undermenybutton' onclick='unbut" + [i]+"'>"+ underkategorier[i].kategoriNamn +" </button>")  
+        }}
+        for(var i = 0; i < underkategorier.length; i++) {
+            if (underkategorier[i].huvudkategori == 3){
+                $(".undermenypwo").append("<button class='undermenybutton'>"+ underkategorier[i].kategoriNamn +" </button>")  
+        }}
+        for(var i = 0; i < underkategorier.length; i++) {
+            if (underkategorier[i].huvudkategori == 4){
+                $(".undermenygainer").append("<button class='undermenybutton'>"+ underkategorier[i].kategoriNamn +" </button>")  
+        }}
+
+   
+        });
+        // VARFÖR FUNKAR DET INTE?????!?!?!? 
+        $(".unbut0").click(function(){
+            console.log("hej")
+        
+    });
+
+    $.getJSON('produkter.json', function(data){
+        produkter = data;
+
+        
+        for(var i = 0; i < produkter.length; i++) {
+            if (produkter[i].huvudKat == 1 & produkter[i].underKat == 1 ){
+                $(".main").append("<div class='card'><div class='cardimage'><img src='bilder/folie.jpg'></div><div class='cardinfo'>Info om produkten</div><div class='cardpris'>149 kr</div></div>")
+                
+               
+        }}
+ 
+
+        /*
+        for(var i = 0; i < underkategorier.length; i++) {
+            if (underkategorier[i].huvudkategori == 2){
+                $(".undermenykreatin").append("<button class='undermenybutton'>"+ underkategorier[i].stadname +" </undermenybutton>")  
+        }}
+        for(var i = 0; i < underkategorier.length; i++) {
+            if (underkategorier[i].huvudkategori == 3){
+                $(".undermenypwo").append("<button class='undermenybutton'>"+ underkategorier[i].stadname +" </undermenybutton>")  
+        }}
+        for(var i = 0; i < underkategorier.length; i++) {
+            if (underkategorier[i].huvudkategori == 4){
+                $(".undermenygainer").append("<button class='undermenybutton'>"+ underkategorier[i].stadname +" </undermenybutton>")  
+        }}
+        */
+    });
+});
+
 //menyn slut//
 
 //Produkter start//
 
-
+/*
 
     var json = fetch("produkter.json")
 
@@ -45,18 +106,8 @@ $(document).ready(function(){
             for(var i = 1; i < 5; i++) {
                 console.log (produkter[0].prodDesc)
                 
-                $(".container").append("<div class='col-sm-3'><div class='card kort' style='height: 45rem;'><img class='card-img-top' src=" + posts[i].better_featured_image.source_url + " alt='Card image cap'><div class='card-body'><h4 class='card-title'>" + posts[i].title.rendered + "</h4><p class='card-text'>" + posts[i].date + " </p><p class='card-text'>" + posts[i].excerpt.rendered + "</p><a href='#' class='btn btn-primary'>Go somewhere</a></div></div>" );
+                $(".mastercard").append("<div class='card'><div class='cardimage'><img src=' " + produkter[i].prodBild +  " ' class='prodbild'></div><div class='cardinfo'>Info om produkten</div><div class='cardpris'>149 kr</div><div class='buybutton'><button class='buy'>Lägg i kundkorgen</button></div></div>");
                 
             }
     });
-
-
-
-
-
-
-
-
-
-
-});
+*/

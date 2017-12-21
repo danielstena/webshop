@@ -1,76 +1,76 @@
 [
     {
         "id": 1,
-        "stadname": "El Gitarr",
+        "kategoriNamn": "Star Nutrition",
         "huvudkategori": 1
         
     },{
         "id": 2,
-        "stadname": "El Bas",
+        "kategoriNamn": "Mutant",
         "huvudkategori": 2
     },{
         "id": 3,
-        "stadname": "Tillbehör",
+        "kategoriNamn": "Chained Nutrition",
         "huvudkategori": 1
     },{
         "id": 4,
-        "stadname": "Piano",
+        "kategoriNamn": "Star Nutrition",
         "huvudkategori": 3
     },{
         "id": 5,
-        "stadname": "Synth",
+        "kategoriNamn": "Chained Nutrition",
         "huvudkategori": 3
     },{
         "id": 6,
-        "stadname": "Klassisk Gitarr",
+        "kategoriNamn": "Scitec Nutrition",
         "huvudkategori": 1
     },{
         "id": 7,
-        "stadname": "Strängar",
+        "kategoriNamn": "Optimum Nutrition",
         "huvudkategori": 1
     },{
         "id": 8,
-        "stadname": "Akustisk Bas",
+        "kategoriNamn": "Fairing",
         "huvudkategori": 2
     },{
         "id": 9,
-        "stadname": "Dragspel",
+        "kategoriNamn": "MuscleTech",
         "huvudkategori": 3
     },{
         "id": 10,
-        "stadname": "Förstärkare",
+        "kategoriNamn": "Fairing",
         "huvudkategori": 1
     },{
         "id": 11,
-        "stadname": "USB Keyboard",
+        "kategoriNamn": "Mutant",
         "huvudkategori": 3
     },{
         "id": 12,
-        "stadname": "Strängar",
+        "kategoriNamn": "MuscleTech",
         "huvudkategori": 2
     },{
         "id": 13,
-        "stadname": "Förstärkare",
+        "kategoriNamn": "Pro Supps",
         "huvudkategori": 2
     },{
         "id": 14,
-        "stadname": "Begagnat",
+        "kategoriNamn": "Swedish Supplements",
         "huvudkategori": 1
     },{
         "id": 15,
-        "stadname": "Tillbehör",
+        "kategoriNamn": "Star Nutrition",
         "huvudkategori": 2
     },{
         "id": 15,
-        "stadname": "Trumsett",
+        "kategoriNamn": "MuscleTech",
         "huvudkategori": 4
     },{
         "id": 15,
-        "stadname": "Digitaltrummor",
+        "kategoriNamn": "Swedish Supplements",
         "huvudkategori": 4
     },{
         "id": 15,
-        "stadname": "Slagverk",
+        "kategoriNamn": "Star Nutrition",
         "huvudkategori": 4
     }
 ]

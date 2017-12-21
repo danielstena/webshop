@@ -4,7 +4,290 @@
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
         "huvudKat": 1,
         "underKat": 1
+        
+    },{
+        "id": 2,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 1
+
+    },{
+        "id": 3,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 1
+    },{
+        "id": 4,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 1
+    },{
+        "id": 5,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 2
+    },{
+        "id": 6,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 2
+    },{
+        "id": 7,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 2
+    },{
+        "id": 8,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 2
+    },{
+        "id": 9,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 3
+    },{
+        "id": 10,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 3
+    },{
+        "id": 11,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 3
+    },{
+        "id": 12,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 3
+    },{
+        "id": 13,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 4
+    },{
+        "id": 14,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 4
+    },{
+        "id": 15,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 4
+    },{
+        "id": 16,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 4
+    },{
+        "id": 16,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 5
+    },{
+        "id": 17,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 5
+    },{
+        "id": 18,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 5
+    },{
+        "id": 19,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 5
+    },{
+        "id": 20,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 6
+    },{
+        "id": 21,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 6
+    },{
+        "id": 22,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 6
+    },{
+        "id": 23,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 1,
+        "underKat": 6
+    },{
+        "id": 24,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 2,
+        "underKat": 1
+    },{
+        "id": 25,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 2,
+        "underKat": 2
+    },{
+        "id": 26,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 2,
+        "underKat": 3
+    },{
+        "id": 27,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 2,
+        "underKat": 4
+    },{
+        "id": 28,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 2,
+        "underKat": 5
+    },{
+        "id": 29,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 3,
+        "underKat": 1
+    },{
+        "id": 30,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 3,
+        "underKat": 2
+    },{
+        "id": 31,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 3,
+        "underKat": 3
+    },{
+        "id": 32,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 3,
+        "underKat": 4
+    },{
+        "id": 33,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 4,
+        "underKat": 1
+    },{
+        "id": 34,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 4,
+        "underKat": 2
+    },{
+        "id": 35,
+        "prodName": "Epiphone Les Paul Standard",
+        "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
+        "prodPrice": 6999,
+        "prodBild": "bilder/stargainer.jpg",
+        "huvudKat": 4,
+        "underKat": 3
     }
 ]
