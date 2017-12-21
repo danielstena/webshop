@@ -1,0 +1,44 @@
+body{
+    max-width: 1280px;
+    margin:0px;
+    padding:0px;
+    background-image: url(bilder/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: grid;
+    grid-template-columns: 5vw 90vw 5vw ;
+    grid-template-rows: 15vh 5vh 70vh 10vh;
+    width:100vh;
+    grid-template-areas: 
+    "header header header"
+    ". meny ."
+    ". main ."
+    ". footer ."
+    ;
+}
+.header{
+    grid-area: header;
+}
+.meny{
+    display: flex;
+    justify-content: space-around;
+    grid-area: meny;
+}
+.menybutton{
+    width: 10vw;
+    height: 4vh;
+    margin-top:3px;
+}
+.main{
+    border:1px solid black;
+    background-color:blue;
+    grid-area: main;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+}
+.footer{
+    grid-area: footer;
+}
