@@ -63,7 +63,7 @@ $(document).ready(function(){
         
         for(var i = 0; i < produkter.length; i++) {
             if (produkter[i].huvudKat == 1 & produkter[i].underKat == 1 ){
-                $(".main").append("<div class='card'><div class='cardimage'><img src='" + produkter[i].prodBild + "'></div><div class='cardinfo'>" + produkter[i].prodDesc +"</div><div class='cardpris'>" + produkter[i].prodPrice + " kr</div></div>")
+                $(".main").append("<div class='card'><div class='cardimage'><img src='" + produkter[i].prodBild + "'></div><div class='cardinfo'>" + produkter[i].prodDesc +"</div><div class='cardpris'>" + produkter[i].prodPrice + " kr</div><button class'buy'>Lägg i kundkorg</button></div>")
                 
                
         }}
