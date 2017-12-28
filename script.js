@@ -1,4 +1,40 @@
 $(document).ready(function(){
+   
+    function start(){
+        $(".memberlogin").hide();
+        $(".member").hide();
+    }
+
+    start();
+    //inloggning
+    /*
+    if (sessionStorage.ourUser != null){
+    inloggad();
+    } else {
+        start();
+        // Klicka på logga in
+        $(".loggaIn").submit(function(e){
+            e.preventDefault();
+        
+            if (ourUser == $(".userEmail").val() && ourPassword == $(".userPassword").val()) {
+                    // Dölj inlogg Visa welcome + user
+                    sessionStorage.ourUser = $(".userEmail").val();
+                    inloggad();
+            } else {
+                    fellosen();
+                    }
+        });
+        }
+    $(".logout").click(function(){
+        sessionStorage.clear();
+        location.reload();
+    });
+    */
+
+
+
+    
+
     $(".footer1").append("<div class='footer1left'>Supernutrition INC <br> All rights reserved</div>")
     $(".footer1").append("<div class='footer1middle'>Supernutrition INC <br> All rights reserved</div>")
     $(".footer1").append("<div class='footer1right'>Supernutrition INC <br> All rights reserved</div>")
@@ -9,6 +45,7 @@ $(document).ready(function(){
             return response.json();
     })
 
+//Huvudmeny början
     .then(function(lista){
             
             var huvudprodukter = lista
@@ -25,8 +62,9 @@ $(document).ready(function(){
             $(".meny").append("<button class='menybutton'>Kontakt</button>")
             $(".meny").append("<button class='menybutton'>Kundvagn</button>")
     });
+//Huvudmeny slut
 
-
+//Undermeny början
 
     $.getJSON('underkategorier.json', function(data){
         underkategorier = data;
