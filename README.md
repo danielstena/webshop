@@ -1,5 +1,9 @@
 # webshop
 
+Hemsida: http://danielstena.wieg17.se/webshop/
+
+Uppgiften är:
+
 webshop-final-front-end-task
 
 Final front end task för WIEG17
