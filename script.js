@@ -22,16 +22,16 @@ $(document).ready(function(){
 
 function loadData(){ 
 
-    $.getJSON('huvudkategorier.json', function(data){
+    $.getJSON('json/huvudkategorier.json', function(data){
         huvudkategorier = data;
         addMainList(huvudkategorier);
     });
     
-    $.getJSON('underkategorier.json', function(data){
+    $.getJSON('json/underkategorier.json', function(data){
         underkategorier = data;
     });
     
-    $.getJSON('produkter.json', function(data){
+    $.getJSON('json/produkter.json', function(data){
         produkter = data;
         
     });

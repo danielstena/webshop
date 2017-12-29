@@ -21,14 +21,6 @@
         "kategoriNamn": "Chained Nutrition",
         "huvudkategori": 3
     },{
-        "id": 6,
-        "kategoriNamn": "Scitec Nutrition",
-        "huvudkategori": 1
-    },{
-        "id": 7,
-        "kategoriNamn": "Optimum Nutrition",
-        "huvudkategori": 1
-    },{
         "id": 8,
         "kategoriNamn": "Fairing",
         "huvudkategori": 2
@@ -47,10 +39,6 @@
     },{
         "id": 12,
         "kategoriNamn": "MuscleTech",
-        "huvudkategori": 2
-    },{
-        "id": 13,
-        "kategoriNamn": "Pro Supps",
         "huvudkategori": 2
     },{
         "id": 14,
