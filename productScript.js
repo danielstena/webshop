@@ -1,26 +1,43 @@
 
 
+/*function addProduct(produkt){
+    $(".main").append("<div class='card'><div class='cardimage'><img src=' " + produkt.prodBild +  " ' class='prodbild'></div><div class='cardinfo'>" + produkt.prodDesc +"</div><div class='cardpris'>" + produkt.prodPrice + " kr</div><button class'buy' onclick='addToBasket'>Lägg i kundkorg</button></div>")
+}*/
+
+
 function addProduct(produkt){
-    $(".main").append("<div class='card'><div class='cardimage'><img src='./" + produkt.prodBild + "'></div><div class='cardinfo'>" + produkt.prodDesc +"</div><div class='cardpris'>" + produkt.prodPrice + " kr</div><button class'buy'>Lägg i kundkorg</button></div>")
+    var card = document.createElement('div');
+    card.className = "card"
+
+    var img = document.createElement("img")
+    img.src = produkt.prodBild
+    img.className = "prodbild"
+
+    var description = document.createElement("p")
+    description.innerText = (produkt.prodDesc)
+    description.className = "cardinfo"
+
+    var price = document.createElement("h2")
+    price.innerHTML = (produkt.prodPrice) +" kr"
+    price.className = "cardpris"
+
+    var button = document.createElement('button');
+    button.innerText = "Add to basket"
+    button.className = "buy"
+    button.onclick = function() {
+
+    //Här ska det pushas till vagnen
+    }
+
+    $(".main").append(card) 
+    $(".card").append(img)
+    $(".card").append(description)
+    $(".card").append(price)
+    $(".card").append(button)
+    
 }
 
-/*
-        for(var i = 0; i < underkategorier.length; i++) {
-            if (underkategorier[i].huvudkategori == 2){
-                $(".undermenykreatin").append("<button class='undermenybutton'>"+ underkategorier[i].stadname +" </undermenybutton>")  
-        }}
-        for(var i = 0; i < underkategorier.length; i++) {
-            if (underkategorier[i].huvudkategori == 3){
-                $(".undermenypwo").append("<button class='undermenybutton'>"+ underkategorier[i].stadname +" </undermenybutton>")  
-        }}
-        for(var i = 0; i < underkategorier.length; i++) {
-            if (underkategorier[i].huvudkategori == 4){
-                $(".undermenygainer").append("<button class='undermenybutton'>"+ underkategorier[i].stadname +" </undermenybutton>")  
-        }}
-        */
 
-
-//menyn slut//
 
 //Produkter start//
 

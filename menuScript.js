@@ -3,15 +3,54 @@ function addMainList(huvudkategorier) {
             
 
     $(".meny").append("<a href='index.html'><button class='menybutton'>Start</button></a>")
-    $(".meny").append("<button class='menybutton'>Info</button>")
+    addMenuInfo();
     
     for(var i = 0; i < huvudkategorier.length; i++) {
         addMenuItem(huvudkategorier[i])
     }
-
-    $(".meny").append("<button class='menybutton'>Kontakt</button>")
-    $(".meny").append("<button class='menybutton'>Kundvagn</button>")
+    addMenuKontact();
+    addMenuCart();
 }
+
+function addMenuInfo() {
+    var button = document.createElement('button');
+    button.innerText = "Info"
+    button.className = "menybutton"
+    button.onclick = function() {
+        $(".main").hide();
+        $(".kontakt").show();
+        console.log("hej")
+
+    }
+    $(".meny").append(button)
+}
+
+function addMenuKontact() {
+    var button = document.createElement('button');
+    button.innerText = "Kontakt"
+    button.className = "menybutton"
+    button.onclick = function() {
+        $(".main").hide();
+        $(".kontakt").show();
+        console.log("hej")
+
+    }
+    $(".meny").append(button)
+}
+
+function addMenuCart(huvudkategori) {
+    var button = document.createElement('button');
+    button.innerText = "Kundvagn"
+    button.className = "menybutton"
+    button.onclick = function() {
+        $(".main").hide();
+        $(".cart").show();
+        
+
+    }
+    $(".meny").append(button)
+}
+
 
 function addMenuItem(huvudkategori) {
     var button = document.createElement('button');

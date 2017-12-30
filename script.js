@@ -8,6 +8,9 @@ $(document).ready(function(){
     function start(){
         $(".memberlogin").hide();
         $(".member").hide();
+        $(".kontakt").hide();
+        $(".cart").hide();
+        $(".info").hide();
     }
     start();
 
