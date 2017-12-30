@@ -134,6 +134,7 @@ body{
 }
 .cardpris{
     color:red;
+    font-size: 3vh;
 }
 .buy{
     width:10vw;
