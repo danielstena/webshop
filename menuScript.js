@@ -51,7 +51,7 @@ function addMenuCart(huvudkategori) {
     $(".meny").append(button)
 }
 
-
+//Huvudmeny
 function addMenuItem(huvudkategori) {
     var button = document.createElement('button');
     button.innerText = huvudkategori.kategoriname
@@ -67,13 +67,13 @@ function addMenuItem(huvudkategori) {
     }
     $(".meny").append(button)
 }
-
+//UNdermeny
 function addSubmenuItem(underkategori){
     var button = document.createElement('button')
     button.innerText = underkategori.kategoriNamn
     button.className = "undermenybutton"
     button.onclick = function() {
-        console.log("HEEEEJ!!!")
+        console.log("Undermeny!")
 
         $(".main").empty();
         for(var i = 0; i < produkter.length; i++) {
