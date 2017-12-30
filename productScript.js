@@ -1,9 +1,4 @@
-
-
-/*function addProduct(produkt){
-    $(".main").append("<div class='card'><div class='cardimage'><img src=' " + produkt.prodBild +  " ' class='prodbild'></div><div class='cardinfo'>" + produkt.prodDesc +"</div><div class='cardpris'>" + produkt.prodPrice + " kr</div><button class'buy' onclick='addToBasket'>Lägg i kundkorg</button></div>")
-}*/
-
+var shoppingCart = [ ];
 
 function addProduct(produkt){
     var card = document.createElement('div');
@@ -24,22 +19,30 @@ function addProduct(produkt){
     var button = document.createElement('button');
     button.innerText = "Add to basket"
     button.className = "buy"
-    button.onclick = function() {
-
-    //Här ska det pushas till vagnen
-    }
-
+    //$(button).click(console.log("klick"))
+    button.addEventListener("click", function(){
+        console.log("klick")
+    });
+    /*button.onclick = function() {
+        
+    //Här ska det pushas till kundvagnen
+   
+    }*/
+   
+    $(card).append(img)
+    $(card).append(description)
+    $(card).append(price)
+    $(card).append(button)
     $(".main").append(card) 
-    $(".card").append(img)
-    $(".card").append(description)
-    $(".card").append(price)
-    $(".card").append(button)
-    
+   
 }
 
 
 
-//Produkter start//
+console.log("funkardet??")
+/*console.log(shoppingCart);
+shoppingCart.push(28);
+//Produkter start// */
 
 /*
 

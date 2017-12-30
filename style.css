@@ -125,7 +125,7 @@ body{
     margin-top:1vh;
 }
 .prodbild{
-    width: 10vw;
+    width: 17vw;
     height:25vh;
 }
 .cardinfo{
@@ -135,6 +135,7 @@ body{
 .cardpris{
     color:red;
     font-size: 3vh;
+    margin:0px;
 }
 .buy{
     width:10vw;
