@@ -19,7 +19,7 @@ function addMenuInfo() {
     button.onclick = function() {
         $(".main").hide();
         $(".kontakt").show();
-        console.log("hej")
+        console.log("info")
 
     }
     $(".meny").append(button)

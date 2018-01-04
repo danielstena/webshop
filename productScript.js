@@ -3,7 +3,7 @@
 function addProduct(produkt){
     var card = document.createElement('div');
     card.className = "card"
-
+    
     var img = document.createElement("img")
     img.src = produkt.prodBild
     img.className = "prodbild"
@@ -18,11 +18,10 @@ function addProduct(produkt){
 
     var button = document.createElement('button');
     button.innerText = "Add to basket"
-    button.className = "buy"
+    button.id = ("buy" +i);
     button.onclick = function() {
         console.log("klick")
-    //Här ska det pushas till kundvagnen
-   
+    //Får inget felmeddelande men heller inget "klick" när jag klickar på starnutrition under protein
     }
    
     $(card).append(img)
