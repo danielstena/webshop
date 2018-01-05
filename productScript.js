@@ -18,20 +18,22 @@ function addProduct(produkt){
 
     var button = document.createElement('button');
     button.innerText = "Add to basket"
-    button.id = ("buy" +i);
-    button.onclick = function() {
-        console.log("klick")
-    //Får inget felmeddelande men heller inget "klick" när jag klickar på starnutrition under protein
-    }
+    button.className =  "buy"
    
     $(card).append(img)
     $(card).append(description)
     $(card).append(price)
     $(card).append(button)
     $(".main").append(card) 
+
+
+    button.onclick = function() {
+        console.log("klick")
+    //Får inget felmeddelande men heller inget "klick" när jag klickar på starnutrition under protein
+    }
+    
+
 }
-
-
 
 console.log("funkardet??")
 /*console.log(shoppingCart);

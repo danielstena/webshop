@@ -1,6 +1,6 @@
 //Huvudmeny början
 function addMainList(huvudkategorier) {
-            
+           //Startknapp 
 
     $(".meny").append("<a href='index.html'><button class='menybutton'>Start</button></a>")
     addMenuInfo();
@@ -13,6 +13,7 @@ function addMainList(huvudkategorier) {
 }
 
 function addMenuInfo() {
+    //Infoknapp
     var button = document.createElement('button');
     button.innerText = "Info"
     button.className = "menybutton"
@@ -26,6 +27,7 @@ function addMenuInfo() {
 }
 
 function addMenuKontact() {
+    //Kontaktknapp
     var button = document.createElement('button');
     button.innerText = "Kontakt"
     button.className = "menybutton"
@@ -39,6 +41,7 @@ function addMenuKontact() {
 }
 
 function addMenuCart(huvudkategori) {
+    //kundvagnsknapp
     var button = document.createElement('button');
     button.innerText = "Kundvagn"
     button.className = "menybutton"
@@ -51,7 +54,7 @@ function addMenuCart(huvudkategori) {
     $(".meny").append(button)
 }
 
-//Huvudmeny
+//Huvudprodukter
 function addMenuItem(huvudkategori) {
     var button = document.createElement('button');
     button.innerText = huvudkategori.kategoriname
@@ -67,7 +70,7 @@ function addMenuItem(huvudkategori) {
     }
     $(".meny").append(button)
 }
-//UNdermeny
+//Underprodukter
 function addSubmenuItem(underkategori){
     var button = document.createElement('button')
     button.innerText = underkategori.kategoriNamn
