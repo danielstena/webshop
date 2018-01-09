@@ -3,6 +3,7 @@ var underkategorier
 
 $(document).ready(function(){
 <<<<<<< HEAD
+<<<<<<< HEAD
    loadData();
 
     // Login
@@ -17,6 +18,8 @@ $(document).ready(function(){
 
     
 
+=======
+>>>>>>> parent of e71b7a8... Merge branch 'master' of https://github.com/danielstena/webshop
 =======
 >>>>>>> parent of e71b7a8... Merge branch 'master' of https://github.com/danielstena/webshop
     $(".footer1").append("<div class='footer1left'>Supernutrition INC <br> All rights reserved</div>")
@@ -50,11 +53,16 @@ function loadData(){
         addMainList(huvudkategorier);
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     $.getJSON('json/underkategorier.json', function(data){
 =======
 
 
+=======
+
+
+>>>>>>> parent of e71b7a8... Merge branch 'master' of https://github.com/danielstena/webshop
 
     $.getJSON('underkategorier.json', function(data){
 >>>>>>> parent of e71b7a8... Merge branch 'master' of https://github.com/danielstena/webshop
