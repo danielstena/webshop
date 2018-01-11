@@ -33,13 +33,15 @@ body{
 .headerlogo{
     width:60%;
     font-size: 5vw;
-    padding-top:4vh;
+    padding-top:2vh;
     padding-left:4vh;
     font-family: 'Rozha One', serif;
     color:white;
 }
 .headerlogin{
     width:30%;
+    padding-top:5vh;
+    padding-left:10vh;
 }
 #login{
     margin-top:5vh;
@@ -119,19 +121,22 @@ body{
     border:1px solid black;
     height:70vh;
     width: 35%;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
     margin-top:5vh;
+    background-color: rgba(202, 199, 199, 0.589)
 }
 .cardimage{
-    margin-top:1vh;
+    margin-top:0.5vh;
 }
 .prodbild{
     width: 17vw;
     height:25vh;
 }
 .cardinfo{
-    font-size: 1vw;
+    font-size: 30px;
     height:40%;
+    margin:0px;
+    padding:0px;
 }
 .cardpris{
     color:red;

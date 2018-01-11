@@ -1,6 +1,6 @@
 //Huvudmeny början
 function addMainList(huvudkategorier) {
-           //Startknapp 
+            
 
     $(".meny").append("<a href='index.html'><button class='menybutton'>Start</button></a>")
     addMenuInfo();
@@ -11,23 +11,19 @@ function addMainList(huvudkategorier) {
     addMenuKontact();
     addMenuCart();
 }
-
+//Info button under
 function addMenuInfo() {
-    //Infoknapp
     var button = document.createElement('button');
     button.innerText = "Info"
     button.className = "menybutton"
     button.onclick = function() {
         $(".main").hide();
         $(".kontakt").show();
-        console.log("info")
-
     }
     $(".meny").append(button)
 }
-
+//Kontaktbutton
 function addMenuKontact() {
-    //Kontaktknapp
     var button = document.createElement('button');
     button.innerText = "Kontakt"
     button.className = "menybutton"
@@ -39,9 +35,27 @@ function addMenuKontact() {
     }
     $(".meny").append(button)
 }
+//Kontaktbutton
+function addMenuKontact() {
+    $(".meny").append("<button class='menybutton' onclick='bliMedlemKnapp()'>Bli medlem</button>")
+    
+    
+    /*
+    var button = document.createElement('button');
+    button.innerText = "Bli medlem"
+    button.className = "menybutton"
+    button.onclick = function() {
+        $(".main").hide();
+        $(".becomeMember").show();
+        console.log("hej")
+        */
+}
+bliMedlemKnapp = function(val) {
+    $(".main").hide();
+    $(".becomeMember").show();
+}
 
 function addMenuCart(huvudkategori) {
-    //kundvagnsknapp
     var button = document.createElement('button');
     button.innerText = "Kundvagn"
     button.className = "menybutton"
@@ -54,7 +68,7 @@ function addMenuCart(huvudkategori) {
     $(".meny").append(button)
 }
 
-//Huvudprodukter
+
 function addMenuItem(huvudkategori) {
     var button = document.createElement('button');
     button.innerText = huvudkategori.kategoriname
@@ -70,18 +84,17 @@ function addMenuItem(huvudkategori) {
     }
     $(".meny").append(button)
 }
-//Underprodukter
+//Produkt
 function addSubmenuItem(underkategori){
     var button = document.createElement('button')
     button.innerText = underkategori.kategoriNamn
     button.className = "undermenybutton"
     button.onclick = function() {
-        console.log("Undermeny!")
-
+        console.log("HEEEEJ!!!")
         $(".main").empty();
         for(var i = 0; i < produkter.length; i++) {
             if (produkter[i].underKat == underkategori.id && produkter[i].huvudKat == underkategori.huvudkategori) {
-                addProduct(produkter[i])
+                addProduct(produkter[i]);
             }
         }
     }

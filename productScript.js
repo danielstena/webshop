@@ -1,41 +1,25 @@
 
 
+    
 
 function addProduct(produkt){
-    //test jquery
-    $(".main").append("<div class='card'><p>test</p></div>")
+
+
+    var i = 0;
+    var card = $("<div class='card'></div>");
     
-    //$(".main").append("<div class='card'><div class='cardimage'><img src=' " + produkt.prodBild +  " ' class='prodbild'></div><div class='cardinfo'>" + produkt.prodDesc +"</div><div class='cardpris'>" + produkt.prodPrice + " kr</div><button class'buy' onclick='addToBasket'>Lägg i kundkorg</button></div>")
+    card.append("<img src="+produkt.prodBild+" class='prodbild'/>")
+    card.append("<p class='cardinfo'>"+produkt.prodDesc+"</p>")
+    card.append("<h2 class='cardpris'>"+produkt.prodPrice+" kr</h2>")
+    card.append("<button class='buy' onclick='addToBasket("+produkt.id+")'>Add to basket</button>")
     
-    /*
-    var card = document.createElement('div');
-    card.className = "card"
+    $(".main").append(card);
 
-    var img = document.createElement("img")
-    img.src = produkt.prodBild
-    img.className = "prodbild"
-
-    var description = document.createElement("p")
-    description.innerText = (produkt.prodDesc)
-    description.className = "cardinfo"
-
-    var price = document.createElement("h2")
-    price.innerHTML = (produkt.prodPrice) +" kr"
-    price.className = "cardpris"
-
-    var button = document.createElement('button');
-    button.innerText = "Add to basket"
-    button.className = "buy"
-    button.onclick = function() {
-
-    */
+    addToBasket = function(val) {
+        
+        console.log(val)
     }
-/*
-    $(".main").append(card) 
-    $(".card").append(img)
-    $(".card").append(description)
-    $(".card").append(price)
-    $(".card").append(button)
-  */  
+
+
 }
 

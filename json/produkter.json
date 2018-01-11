@@ -40,7 +40,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 2
+        "underKat": 3
     },{
         "id": 6,
         "prodName": "Epiphone Les Paul Standard",
@@ -48,7 +48,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 2
+        "underKat": 3
     },{
         "id": 7,
         "prodName": "Epiphone Les Paul Standard",
@@ -56,7 +56,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 2
+        "underKat": 3
     },{
         "id": 8,
         "prodName": "Epiphone Les Paul Standard",
@@ -64,7 +64,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 2
+        "underKat": 3
     },{
         "id": 9,
         "prodName": "Epiphone Les Paul Standard",
@@ -72,7 +72,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 3
+        "underKat": 10
     },{
         "id": 10,
         "prodName": "Epiphone Les Paul Standard",
@@ -80,7 +80,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 3
+        "underKat": 10
     },{
         "id": 11,
         "prodName": "Epiphone Les Paul Standard",
@@ -88,7 +88,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 3
+        "underKat": 10
     },{
         "id": 12,
         "prodName": "Epiphone Les Paul Standard",
@@ -96,7 +96,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 3
+        "underKat": 10
     },{
         "id": 13,
         "prodName": "Epiphone Les Paul Standard",
@@ -104,7 +104,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 4
+        "underKat": 14
     },{
         "id": 14,
         "prodName": "Epiphone Les Paul Standard",
@@ -112,7 +112,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 4
+        "underKat": 14
     },{
         "id": 15,
         "prodName": "Epiphone Les Paul Standard",
@@ -120,7 +120,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 4
+        "underKat": 14
     },{
         "id": 16,
         "prodName": "Epiphone Les Paul Standard",
@@ -128,71 +128,71 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 1,
-        "underKat": 4
+        "underKat": 14
     },{
         "id": 16,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 1,
-        "underKat": 5
+        "huvudKat": 2,
+        "underKat": 2
     },{
         "id": 17,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 1,
-        "underKat": 5
+        "huvudKat": 2,
+        "underKat": 2
     },{
         "id": 18,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 1,
-        "underKat": 5
+        "huvudKat": 2,
+        "underKat": 2
     },{
         "id": 19,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 1,
-        "underKat": 5
+        "huvudKat": 2,
+        "underKat": 2
     },{
         "id": 20,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 1,
-        "underKat": 6
+        "huvudKat": 2,
+        "underKat": 8
     },{
         "id": 21,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 1,
-        "underKat": 6
+        "huvudKat": 2,
+        "underKat": 8
     },{
         "id": 22,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 1,
-        "underKat": 6
+        "huvudKat": 2,
+        "underKat": 8
     },{
         "id": 23,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 1,
-        "underKat": 6
+        "huvudKat": 2,
+        "underKat": 8
     },{
         "id": 24,
         "prodName": "Epiphone Les Paul Standard",
@@ -200,7 +200,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 2,
-        "underKat": 1
+        "underKat": 12
     },{
         "id": 25,
         "prodName": "Epiphone Les Paul Standard",
@@ -208,7 +208,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 2,
-        "underKat": 2
+        "underKat": 12
     },{
         "id": 26,
         "prodName": "Epiphone Les Paul Standard",
@@ -216,7 +216,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 2,
-        "underKat": 3
+        "underKat": 12
     },{
         "id": 27,
         "prodName": "Epiphone Les Paul Standard",
@@ -224,7 +224,7 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 2,
-        "underKat": 4
+        "underKat": 12
     },{
         "id": 28,
         "prodName": "Epiphone Les Paul Standard",
@@ -232,31 +232,31 @@
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
         "huvudKat": 2,
-        "underKat": 5
+        "underKat": 15
     },{
         "id": 29,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 3,
-        "underKat": 1
+        "huvudKat": 2,
+        "underKat": 15
     },{
         "id": 30,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 3,
-        "underKat": 2
+        "huvudKat": 2,
+        "underKat": 15
     },{
         "id": 31,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 3,
-        "underKat": 3
+        "huvudKat": 2,
+        "underKat": 15
     },{
         "id": 32,
         "prodName": "Epiphone Les Paul Standard",
@@ -271,23 +271,23 @@
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 4,
-        "underKat": 1
+        "huvudKat": 3,
+        "underKat": 4
     },{
         "id": 34,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 4,
-        "underKat": 2
+        "huvudKat": 3,
+        "underKat": 4
     },{
         "id": 35,
         "prodName": "Epiphone Les Paul Standard",
         "prodDesc": "Elgitarr med kropp av mahogny och AAA-flammigt lönntopp, mahognyhals med greppbräda av rosewood och två ProBucker pickups.",
         "prodPrice": 6999,
         "prodBild": "bilder/stargainer.png",
-        "huvudKat": 4,
-        "underKat": 3
+        "huvudKat": 3,
+        "underKat": 4
     }
 ]
